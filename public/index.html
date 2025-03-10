@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <h1 class="main-title">To-Do List</h1>
+    <div class="button-group">
+      <button id="new-list">New List</button>
+      <button id="new-priority-list">New Priority List</button>
+    </div>
+    <div class="list-display"></div>
+    <div class="form" id="normal-form">
+      <div class="inner-form">
+        <h2>Task List</h2>
+        <input type="text" name="title" class="title" placeholder="Title" />
+        <div class="task-form-subheading">
+          <div class="subheading">Tasks</div>
+          <button id="new-task">New Task</button>
+        </div>
+        <div class="list"></div>
+        <div class="end-button-group">
+          <button class="close-button">Close</button>
+          <button class="save-button">Save</button>
+        </div>
+      </div>
+    </div>
+    <div class="form" id="priority-form">
+      <div class="inner-form">
+        <h2>Priority Task List</h2>
+        <input type="text" name="title" class="title" placeholder="Title" />
+        <div class="task-form-subheading">
+          <div class="subheading">Tasks</div>
+          <button id="new-priority-task">New Task</button>
+        </div>
+        <div class="list"></div>
+        <div class="end-button-group">
+          <button class="close-button">Close</button>
+          <button class="save-button">Save</button>
+        </div>
+      </div>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module" src="/dist/index.js"></script>
+  </body>
+</html>
+
+<!-- // class task List // class completed task list extends task List // class
+pending task list exyends task list // class task //PriorityTaskList
+//DueDateTaskList -->
